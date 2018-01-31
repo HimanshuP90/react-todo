@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import SingleToDo from './SingleToDo';
+import ColorFullTodo from './ColorFullTodo';
+import Dropdowns from './Dropdowns';
 
 class App extends Component {
   constructor(){
@@ -30,19 +31,24 @@ class App extends Component {
   }
 
   render() {
-    let bulletedTodos = this.state.todos.map((e, i) => {
-      return (
-          <SingleToDo todo={e} delete={() => this.deleteTodo(i)} />
-        );
-    });
-
+    {/* let bulletedTodos = this.state.todos.map((e, i) => {
+          return (
+            <div>
+              <SingleToDo todo={e} delete={() => this.deleteTodo(i)} />
+            </div>
+            );
+        });*/}
     return (
       <div>
-      <input placeholder="Enter todo" value={this.state.currentTodo}
+      {/*  <input placeholder="Enter todo" value={this.state.currentTodo}
         onChange={this.onInputChnage}/>
       <button onClick={this.onClick}>Add!</button>
-      <br/>
+      <h1><DoubleClick  myProps="hello"/></h1>
+      <br />
       {this.state.todos.length === 0 ? "No todos yet!" : <ul>{bulletedTodos}</ul> }
+      <br /> */}
+      {/*<ColorFullTodo />*/}
+      <Dropdowns />
       </div>
     );
   }
