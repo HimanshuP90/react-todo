@@ -37,3 +37,9 @@
 @ Only accepts props 
 @ No internal state
 @ Functions instead of classes
+
+
++++++++++++ MobX ++++++++++++++
+
+Just do something to the state and MobX will make sure your app respects the changes
+Why:  Simple, Focused, Performant, Unobtrustive
