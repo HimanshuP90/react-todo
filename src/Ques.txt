@@ -1,0 +1,40 @@
+ Round 1: (Mode: Written Pen & Papper; Duration: 1 hours)
+ 	1) WAP Minimum Number of Platforms Required for a Railway/Bus Station. With the minimum complexity
+	2) Diff between display: hidden, diplay: none
+	3) Bubbling event in the JavaScript.
+	4) Mehtod chaining in jQuery.
+	5) console.log(true+false).
+
+Round 2:( Mode: F2F)
+	1) Tell me about yourslef in 2 minuttes.
+	2) What u r doing in current project ?.
+	3) React.js life cycle.
+	4) If you getting JSON data from the server after hitting the AJAX call, how u display in UI. Tell me the complete story
+		behind browser engine.
+
+	4) What is the output of the following program ?
+	   https://www.nczonline.net/blog/2010/01/26/answering-baranovskiys-javascript-quiz/
+	   // "variable-name" in window (Syntax)
+
+		if(!("a" in window)) {
+			var a = 1;
+		}
+		alert(a);
+
+		output: ??
+
+	5) myObj.Method1().Method2().Method3().Method4().Method5() . WAP for the method chaining in the jQuery.
+
+Round3: (Mode: F2F)
+	1) Prototype Inheritance in JavaScript
+	2) Give me a complete example for the same.
+	3) WAP for div containng inside another (i.e. div1 div2, div3, div4, div5 ...etc with header and footer).
+	4) var a = 1; How engine excute the this snippets of the code.
+		window.a = 1;
+
+	5) 	var a;    //declaration
+		a = 1;    //initialization
+
+		variable declarations are hoisted, variable initializations are not ? 
+	6)
+
